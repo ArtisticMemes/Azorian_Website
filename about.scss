@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import "common";
+
+#header
+{
+  background: #00B7EB;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  color: #fff;
+}
+
+#logo {
+  color: inherit;
+  float: left;
+  font-weight: 600;
+  margin: 0 5% 0 5%;
+  color: inherit;
+  a {
+    color: inherit;
+  }
+  a:visited {
+    color: inherit;
+  }
+}
+
+.nav-link {
+  color: inherit;
+  float: right;
+  margin-right: 2%;
+  padding-top: 2rem;
+  font-size: 1.7rem;
+}
+
+.nav-link:visited {
+  color: inherit;
+}
